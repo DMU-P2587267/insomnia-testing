@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Insomnia - Interactive Story</title>
+<link rel="stylesheet" href="css/style2.css" type="text/css">
+</head>
+<body>
+
+<div class="banner"> 
+<div class="banner-text">Insomnia</div>
+</div>
+
+<div class="banner"> 
+    <div class="banner-text">Blah blah blah blah text</div>
+    </div>
+
+<script>
+    $(window).scroll(function(){
+       $(".banner-text").css("opacity", 1 - $(window).scrollTop() / 250);
+    });
+</script>
+
+</body>
+</html>
